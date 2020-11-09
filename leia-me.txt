@@ -1,0 +1,8 @@
+prisma deploy --serve para atualizar o banco de dados
+prisma generate
+
+Para atualizar o docker:
+docker-compose up -d
+
+Para parar o docker:
+docker-compose stop
